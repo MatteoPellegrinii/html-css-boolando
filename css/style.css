@@ -1,13 +1,13 @@
 img{
     width: 300px;
 }
-.first-row > div{
+.row > div{
     display: inline-block;
     position: relative;
 }
-.first-row{
+.row{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .heart{
     font-size: 30px;
@@ -54,4 +54,28 @@ img{
 }
 #vestito-verde:hover{
     content: url(../img/3b.webp);
+}
+
+/* didascalie */
+.didascalie{
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+section{
+    text-align: center;
+}
+.testo-barrato{
+    text-decoration: line-through;
+
+}
+/* seconda linea */
+#levis-seconalinea:hover{
+    content: url(../img/4b.webp);
+}
+#vestito-marrone:hover{
+    content: url(../img/5b.webp);
+}
+#maglietta-nera:hover{
+    content: url(../img/6b.webp);
 }

@@ -1,0 +1,100 @@
+img{
+    width: 300px;
+}
+.row > div{
+    display: inline-block;
+    position: relative;
+}
+.row{
+    text-align: center;
+    padding-top: 150px;
+}
+.heart{
+    font-size: 30px;
+    background-color: white;
+    z-index: 10;
+    right: 0;
+    width: 50px;
+    top: 20px;
+    color: black;
+    position: absolute;
+}
+.heart:hover{
+    color: red;
+}
+.sconto-red{
+    position: absolute;
+    background-color: red;
+    z-index: 10;
+    color: white;
+    bottom: 20px;
+    left: 0;
+    height: 15px;
+    line-height: 100%;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+.sostenibilita{
+    position: absolute;
+    background-color: green;
+    color: white;
+    z-index: 10;
+    bottom: 20px;
+    height: 15px;
+    line-height: 100%;
+    font-size: 12px;
+    padding: 2px 5px;
+    left: 40px;
+}
+#levis:hover{
+    content: url(../img/1b.webp);
+}
+#gonna-guess:hover{
+    content: url(../img/2b.webp);
+}
+#vestito-verde:hover{
+    content: url(../img/3b.webp);
+}
+
+/* didascalie */
+.didascalie{
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+section{
+    text-align: center;
+}
+.testo-barrato{
+    text-decoration: line-through;
+
+}
+/* seconda linea */
+#levis-seconalinea:hover{
+    content: url(../img/4b.webp);
+}
+#vestito-marrone:hover{
+    content: url(../img/5b.webp);
+}
+#maglietta-nera:hover{
+    content: url(../img/6b.webp);
+}
+h1> span{
+    font-size: 100px;
+    text-align: center;
+    background-image: linear-gradient(to left, black, red);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+h1{
+    text-align: center;
+    background-color: #ccc;
+    position:fixed;
+    width: 100%;
+    z-index: 20;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

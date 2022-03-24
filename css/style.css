@@ -1,4 +1,25 @@
-.container{
-    background-color: red;
-    margin: 0 10%;
+img{
+    width: 300px;
+}
+.heart{
+    position: absolute;
+}
+.immagine{
+    display: inline-block;
+    position: relative;
+}
+.first-row{
+    text-align: center;
+}
+.heart{
+    font-size: 30px;
+    background-color: white;
+    z-index: 10;
+    right: 0;
+    width: 50px;
+    top: 20px;
+    color: black;
+}
+.heart:hover{
+    color: red;
 }

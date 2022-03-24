@@ -86,7 +86,7 @@ h1> span{
     color: transparent;
     -webkit-background-clip: text;
 }
-h1{
+.titolo{
     text-align: center;
     background-color: #ccc;
     position:fixed;
@@ -97,4 +97,12 @@ h1{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.container> div{
+    width: 33%;
+    display: inline-block;
+    border-right: solid black 1px;
+}
+.container :last-child{
+    border-right: 0px;
 }

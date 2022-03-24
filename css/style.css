@@ -1,15 +1,13 @@
 img{
     width: 300px;
 }
-.heart{
-    position: absolute;
-}
-.immagine{
+.first-row > div{
     display: inline-block;
     position: relative;
 }
 .first-row{
     text-align: center;
+    margin-top: 20px;
 }
 .heart{
     font-size: 30px;
@@ -19,7 +17,41 @@ img{
     width: 50px;
     top: 20px;
     color: black;
+    position: absolute;
 }
 .heart:hover{
     color: red;
+}
+.sconto-red{
+    position: absolute;
+    background-color: red;
+    z-index: 10;
+    color: white;
+    bottom: 20px;
+    left: 0;
+    height: 15px;
+    line-height: 100%;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+.sostenibilita{
+    position: absolute;
+    background-color: green;
+    color: white;
+    z-index: 10;
+    bottom: 20px;
+    height: 15px;
+    line-height: 100%;
+    font-size: 12px;
+    padding: 2px 5px;
+    left: 40px;
+}
+#levis:hover{
+    content: url(../img/1b.webp);
+}
+#gonna-guess:hover{
+    content: url(../img/2b.webp);
+}
+#vestito-verde:hover{
+    content: url(../img/3b.webp);
 }
